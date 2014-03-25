@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FilterViewController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, FilterViewControllerDelegate> {
+}
 
 @end
